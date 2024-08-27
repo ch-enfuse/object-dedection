@@ -1,0 +1,10 @@
+
+services:
+  object-detection:
+    build: .
+    image: object-detection:latest
+    container_name: object-detection-service
+    command: sleep infinity
+    volumes:
+      - ./:/app 
+      - ./huggingface_cache:/root/.cache/huggingface  # Persist Hugging Face cache to host directory

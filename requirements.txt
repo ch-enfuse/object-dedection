@@ -1,0 +1,5 @@
+watchfiles
+torch
+transformers
+Pillow
+timm
