@@ -1,0 +1,5 @@
+{
+    "model_name": "facebook/detr-resnet-50",
+    "sample_image_url": "http://images.cocodataset.org/val2017/000000039769.jpg",
+    "output_image_path": "output_image.jpg"
+}

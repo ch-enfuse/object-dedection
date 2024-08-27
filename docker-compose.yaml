@@ -4,7 +4,8 @@ services:
     build: .
     image: object-detection:latest
     container_name: object-detection-service
-    command: sleep infinity
+    command: python src/app.py
+    # command: sleep infinity  #### DEV SETUP
     volumes:
       - ./:/app 
       - ./huggingface_cache:/root/.cache/huggingface  # Persist Hugging Face cache to host directory
